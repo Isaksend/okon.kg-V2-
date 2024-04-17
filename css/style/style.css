@@ -1,0 +1,1010 @@
+body {
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: #e0f1f2;
+}
+body header,
+body footer {
+  padding: 25px 16.82291%;
+}
+body header .logoBlock .logo,
+body footer .logoBlock .logo {
+  display: flex;
+}
+body header .logoBlock .logo .logoName,
+body footer .logoBlock .logo .logoName {
+  font-family: "Montserrat", "san-serif";
+  padding: 1.25rem .438rem;
+  font-size: 1rem;
+}
+body header .logoBlock .logo .BorderItem,
+body footer .logoBlock .logo .BorderItem {
+  border-left: 1px solid black;
+  height: 60px;
+  width: 0;
+}
+body header .logoBlock .logo .DescriptLogo,
+body footer .logoBlock .logo .DescriptLogo {
+  font-size: 1rem;
+  font-family: "Montserrat", "san-serif";
+  padding: .625rem;
+  width: 11rem;
+}
+body header .logoBlock .burgerMenu,
+body footer .logoBlock .burgerMenu {
+  display: none;
+}
+body header .headPart,
+body footer .headPart {
+  display: flex;
+  flex-direction: row;
+}
+body header .InfoWork,
+body footer .InfoWork {
+  margin-left: 7.43%;
+}
+body header .InfoWork .locationData,
+body footer .InfoWork .locationData,
+body header .InfoWork .timeData,
+body footer .InfoWork .timeData {
+  display: flex;
+}
+body header .InfoWork .locationData .locationDescript,
+body footer .InfoWork .locationData .locationDescript,
+body header .InfoWork .timeData .locationDescript,
+body footer .InfoWork .timeData .locationDescript,
+body header .InfoWork .locationData .timeDescript,
+body footer .InfoWork .locationData .timeDescript,
+body header .InfoWork .timeData .timeDescript,
+body footer .InfoWork .timeData .timeDescript {
+  font-family: "Montserrat", "san-serif";
+  padding: 0.313rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+body header .phoneNumber,
+body footer .phoneNumber {
+  margin-left: 10%;
+  padding: .938rem 0;
+}
+body header .phoneNumber a,
+body footer .phoneNumber a {
+  font-size: 1.5rem;
+  font-family: "Montserrat", "san-serif";
+  color: black;
+}
+body header .btnCallMe,
+body footer .btnCallMe {
+  right: 0;
+  margin-left: 2.65%;
+}
+body header .btnCallMe .btnCall,
+body footer .btnCallMe .btnCall {
+  background-color: #378d93;
+  padding: 1.25rem 3.125rem;
+  display: flex;
+  color: #e0f1f2;
+  font-weight: 600;
+  border: 0;
+  font-family: "Montserrat", "san-serif";
+}
+body header .MenuNav,
+body footer .MenuNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3.125rem 0;
+}
+body header .MenuNav .navItem a,
+body footer .MenuNav .navItem a {
+  text-decoration: none;
+  font-family: "Montserrat", "san-serif";
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 500;
+  animation-duration: 300ms;
+}
+body header .MenuNav .navItem a:hover,
+body footer .MenuNav .navItem a:hover {
+  color: #378D93;
+}
+body main {
+  max-width: 100%;
+}
+body main .frontBlock {
+  background-image: url("../asset/background/okonBackground.png");
+  object-fit: cover;
+  width: 100%;
+  max-width: 100%;
+  height: 67.5rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 3.438rem;
+}
+body main .frontBlock .titleBlock {
+  background-color: rgba(217, 217, 217, 0.75);
+  margin-left: 16.82%;
+  width: 35.56%;
+  height: 28rem;
+  font-family: "Montserrat", "san-serif";
+  padding-left: 3.1229%;
+  padding-top: 2.5rem;
+}
+body main .frontBlock .titleBlock .titleText {
+  color: black;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+body main .frontBlock .titleBlock .cityName {
+  background-color: #378d93;
+  padding: .5rem 2.25rem;
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+  margin-top: .813rem;
+  max-width: 18rem;
+}
+body main .frontBlock .titleBlock .descriptionBlock {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-top: 3rem;
+  width: 66%;
+}
+body main .frontBlock .titleBlock .callBtn {
+  padding: 1.75rem 2.5rem;
+  background-color: #022279;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  width: 17.5rem;
+  margin-top: 2.5rem;
+  border: none;
+  display: flex;
+}
+body main .ourServiceBlock {
+  margin-top: 3rem;
+}
+body main .ourServiceBlock .ServiceBlockName {
+  color: black;
+  font-size: 2.25rem;
+  font-family: "Montserrat", "san-serif";
+  font-weight: 600;
+  text-align: center;
+}
+body main .ourServiceBlock .serviceGroup {
+  margin: 5rem 16.82%;
+  display: grid;
+  grid-template-columns: 49.25% 49.25%;
+  grid-template-rows: 18.75rem 18.75rem 18.75rem;
+  gap: 1.25rem 1.25rem;
+  grid-template-areas: ". ." ". ." ". .";
+}
+body main .ourServiceBlock .serviceGroup .serviceItem,
+body main .ourServiceBlock .serviceGroup .serviceItemSmall {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  background-size: 100%;
+}
+body main .ourServiceBlock .serviceGroup .serviceItemSmall {
+  display: block;
+}
+body main .ourServiceBlock .serviceGroup .mosquitoInnerNets {
+  background-image: url("../asset/services/serviceItem1.png");
+}
+body main .ourServiceBlock .serviceGroup .mosquitoSlidingNets {
+  background-image: url("../asset/services/serviceItem2.png");
+}
+body main .ourServiceBlock .serviceGroup .mosquitoSlidingNets .ServiceName {
+  width: 20rem;
+}
+body main .ourServiceBlock .serviceGroup .eliminationOfWindow {
+  background-image: url("../asset/services/serviceItem3.png");
+}
+body main .ourServiceBlock .serviceGroup .serviceSmallBlock {
+  display: grid;
+  grid-template-columns: 48% 48%;
+  gap: 0 4%;
+}
+body main .ourServiceBlock .serviceGroup .regulateWindow {
+  background-image: url("../asset/services/serviceItem4.png");
+}
+body main .ourServiceBlock .serviceGroup .regulateWindow .ServiceName {
+  width: 13rem;
+}
+body main .ourServiceBlock .serviceGroup .insulationWindow {
+  background-image: url("../asset/services/serviceItem5.png");
+}
+body main .ourServiceBlock .serviceGroup .insulationWindow .ServiceName {
+  width: 12rem;
+}
+body main .ourServiceBlock .serviceGroup .repairFurniture {
+  background-image: url("../asset/services/serviceItem6.png");
+}
+body main .ourServiceBlock .serviceGroup .replaceTheSeal {
+  background-image: url("../asset/services/serviceItem7.png");
+}
+body main .ourServiceBlock .serviceGroup .replaceDoubleGlazedWindow {
+  background-image: url("../asset/services/serviceItem8.png");
+}
+body main .ourServiceBlock .serviceGroup .ServiceName {
+  font-family: "Montserrat", "san-serif";
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 500;
+  width: 15rem;
+  margin-left: 1.563rem;
+  margin-top: 35%;
+}
+body main .ourServiceBlock .serviceGroup .ServiceReadLinkOut {
+  margin-top: 40%;
+}
+body main .ourServiceBlock .serviceGroup .ServiceReadLink {
+  background-color: #378d93;
+  padding: .5rem 1.375rem;
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat", "san-serif";
+  margin-right: 1rem;
+  border-radius: 5px;
+}
+body main .ourServiceBlock .serviceGroup .serviceItemSmall .ServiceName {
+  margin-top: 60%;
+}
+body main .ourServiceBlock .serviceGroup .serviceItemSmall .ServiceReadLinkOut {
+  margin-top: 5%;
+  margin-left: 1.563rem;
+}
+body main .repairBlock {
+  margin: 3.125rem 16.82%;
+}
+body main .repairBlock .repairBlockName {
+  text-align: center;
+  font-size: 2.25rem;
+  font-family: "Montserrat", "san-serif";
+  color: black;
+  font-weight: 600;
+}
+body main .repairBlock .repairService {
+  margin-top: 3.5rem;
+  display: grid;
+  grid-template-columns: 49.3% 49.3%;
+  grid-template-rows: 300px;
+  gap: 0px 1.4%;
+}
+body main .repairBlock .repairService .repairNum1 {
+  background-image: url("../asset/services/serviceRepair1.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+body main .repairBlock .repairService .repairNum2 {
+  background-image: url("../asset/services/serviceRepair2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+body main .repairBlock .repairService .repairItem .repairText {
+  font-size: 2.25rem;
+  font-family: "Montserrat", "san-serif";
+  color: #fff;
+  font-weight: 500;
+  width: 5rem;
+  margin-left: 1.875rem;
+  margin-top: 24%;
+}
+body main .accessoriesBlock {
+  margin-top: 3.125rem;
+}
+body main .accessoriesBlock .accessoriesTitleName {
+  font-family: "Montserrat", "san-serif";
+  color: black;
+  font-size: 2.25rem;
+  text-align: center;
+  font-weight: 600;
+}
+body main .accessoriesBlock .accessoriesList {
+  padding: 3.125rem 16.82%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body main .accessoriesBlock .accessoriesList .accessoriesItem img {
+  width: 100%;
+}
+body main .accessoriesBlock .accessoriesList .accessoriesItem .accessoriesItemNum4 {
+  width: 50%;
+  object-fit: cover;
+  margin-left: 25%;
+}
+body main .accessoriesBlock .accessoriesList .accessoriesItem .ItemOutBlock {
+  height: 14rem;
+}
+body main .accessoriesBlock .accessoriesList .accessoriesItem .ItemOutBlock img {
+  height: 100%;
+  object-fit: contain;
+}
+body main .accessoriesBlock .accessoriesList .ItemName {
+  display: grid;
+  text-align: center;
+  align-items: center;
+  font-size: 1.25rem;
+  font-family: "Montserrat", "san-serif";
+  font-weight: 400;
+  color: #022279;
+  text-decoration: none;
+}
+body main .topServiceList {
+  margin: 6.25rem 16.82291%;
+}
+body main .topServiceList .topBlockName {
+  font-size: 2.25rem;
+  font-family: "Montserrat", "san-serif";
+  font-weight: 600;
+  text-align: center;
+}
+body main .topServiceList .topBlockList {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2.25rem;
+}
+body main .topServiceList .topBlockList .topListItem {
+  display: flex;
+  font-family: "Montserrat", "san-serif";
+  padding-bottom: 1.5rem;
+}
+body main .topServiceList .topBlockList .topListItem .topNum {
+  vertical-align: middle;
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+body main .topServiceList .topBlockList .topListItem .TopItemText {
+  font-size: 1.25rem;
+  margin-left: 1.375rem;
+}
+body main .ourWorksBlock {
+  margin: 6.25rem 16.82291%;
+}
+body main .ourWorksBlock .ourWorkTitle {
+  font-family: "Montserrat", "san-serif";
+  color: black;
+  font-size: 2.25rem;
+  text-align: center;
+  font-weight: 600;
+}
+body main .ourWorksBlock .ourWorkList {
+  display: grid;
+  grid-template-columns: 49% 49%;
+  grid-template-rows: 26.125rem 26.125rem;
+  grid-column-gap: 2%;
+  grid-row-gap: 2%;
+  margin-top: 3.5rem;
+}
+body main .ourWorksBlock .ourWorkList img {
+  width: 100%;
+  height: 100%;
+}
+body main .reviewsBlock {
+  margin: 6.25rem 16.82291%;
+}
+body main .reviewsBlock .reviewsTitleText {
+  font-size: 2.25rem;
+  font-family: "Montserrat", "san-serif";
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 6.25rem;
+}
+body main .reviewsBlock .reviewsListBlock {
+  display: grid;
+  grid-template-columns: 32.55% 32.55% 32.55%;
+  grid-column-gap: 1.175%;
+}
+body main .reviewsBlock .reviewsListBlock .reviewsItem .reviewAuthor .authorImg {
+  display: flex;
+  justify-content: center;
+}
+body main .reviewsBlock .reviewsListBlock .reviewsItem .reviewAuthor .authorName {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Montserrat", "san-serif";
+}
+body main .reviewsBlock .reviewsListBlock .reviewsItem .authorMessage {
+  font-size: 1.25rem;
+  font-family: "Montserrat", "san-serif";
+  font-weight: 400;
+  padding: 2rem 1.563rem;
+  background-color: #378d93;
+  color: white;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+body footer {
+  max-width: 100%;
+  margin-top: 10rem;
+  background-color: #fff;
+}
+body footer .contactBlock {
+  width: 22.5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+body footer .contactBlock .contactItem {
+  width: 30%;
+}
+body footer .contactBlock .contactItem .LinkItem {
+  width: 100%;
+}
+body footer .contactBlock .contactItem .LinkItem img {
+  width: 100%;
+}
+
+.hidden{
+  display: none !important;
+}
+#popupWrapper{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3); 
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#popup{
+
+  scale: 86%;
+  font-family: "Inter";
+  font-weight: 300;
+  background-color: white;
+  height: 30rem;
+  width: 35rem;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  border-radius: 1rem;
+}
+
+#closeBtn{
+  background-color: unset;
+  border: none;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  position: absolute;
+
+  margin-left:90%;
+  margin-bottom: 52vh;
+
+  scale:86%;
+}
+
+@media(min-width: 1000px){
+  #closeBtn{
+    margin-left: 90% !important;
+  }
+}
+@media(hover:hover){
+#closeBtn:hover{
+  scale: 115%;
+}
+#closeBtn:active{
+  scale:90%;
+}
+
+}
+@media(hover:none){
+  #closeBtn:active{
+    scale:90%;
+  }
+}
+
+
+#popupTitle{
+  font-size: 1.7rem;
+  text-align: center;
+
+}
+#popupForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+
+  gap: 2rem;
+}
+
+#popupForm > input{
+  background-color: #F6F6F6;
+  border: none;
+  outline: none;
+
+  font-size: 1.2rem;
+
+  width: 23.5rem;
+  height: 3.2rem;
+
+  padding-left: 2%;
+  border-radius: 0.6rem;
+}
+
+@media(max-width: 320px){
+
+  #popupWrapper{
+    width: 120vw;
+    height: 120vh;
+  }
+  
+}
+@media(min-width: 320px){
+#closeBtn{
+    margin-left: 85%;
+  }
+}
+@media(max-width:425px){
+  #popupForm{
+    margin-bottom: 0;
+  }
+  #popupForm >input{
+    width: 83.5vw;
+  }
+  #popupTitle{
+    font-size: 1.5rem !important;
+  }
+}
+
+#sendBtn{
+  background-color: #378D93;
+  border: none;
+  color:white;
+  padding:1rem;
+
+  width: 59%;
+
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+
+  font-size: 1rem;
+  font-weight: 500;
+
+  font-family: "Montserrat";
+}
+
+
+
+@media screen and (min-width: 2559px) {
+  body header .phoneNumber,
+  body footer .phoneNumber {
+    margin-left: 30%;
+  }
+  body main .ourServiceBlock .serviceGroup {
+    grid-template-rows: 24rem 24rem 24rem;
+  }
+  body main .ourServiceBlock .serviceGroup .serviceSmallBlock {
+    grid-template-columns: 49% 49%;
+    gap: 0 2%;
+  }
+  body main .ourServiceBlock .serviceGroup .serviceItemSmall .ServiceName {
+    margin-top: 63%;
+  }
+  body main .accessoriesBlock .accessoriesList .ItemName {
+    margin-top: 4rem;
+  }
+  body main .ourWorksBlock .ourWorkList {
+    grid-row-gap: 3%;
+  }
+}
+@media screen and (max-width: 1681px) {
+  body header,
+  body footer {
+    padding: 25px 10%;
+  }
+  body header .phoneNumber,
+  body footer .phoneNumber {
+    margin-left: 14%;
+  }
+  body main .frontBlock .titleBlock {
+    margin: 0 10%;
+    width: 45%;
+  }
+  body main .ourServiceBlock .serviceGroup {
+    margin: 5rem 10%;
+    grid-template-rows: 20rem 20rem 20rem;
+  }
+  body main .repairBlock {
+    margin: 3.125rem 10%;
+  }
+  body main .accessoriesBlock .accessoriesList {
+    padding: 3.125rem 10%;
+  }
+  body main .ourWorksBlock {
+    margin: 6.25rem 10%;
+  }
+  body main .reviewsBlock {
+    margin: 6.25rem 10%;
+  }
+}
+@media screen and (max-width: 1601px) {
+  body header .phoneNumber,
+  body footer .phoneNumber {
+    margin-left: 7%;
+  }
+  body header .btnCallMe,
+  body footer .btnCallMe {
+    margin-left: 6%;
+  }
+}
+@media screen and (max-width: 1540px) {
+  body header,
+  body footer {
+    padding: 25px 7%;
+  }
+  body header .btnCallMe,
+  body footer .btnCallMe {
+    margin-left: 7.5%;
+  }
+}
+@media screen and (max-width: 1441px) {
+  body header .phoneNumber,
+  body footer .phoneNumber {
+    margin-left: 2%;
+  }
+  body header .btnCallMe,
+  body footer .btnCallMe {
+    margin-left: 8%;
+  }
+  body main .frontBlock {
+    height: 50rem;
+  }
+  body main .ourServiceBlock .serviceGroup {
+    grid-template-rows: 17rem 17rem 17rem;
+  }
+  body main .ourServiceBlock .serviceGroup .serviceItemSmall .ServiceName {
+    margin-top: 55%;
+  }
+}
+@media screen and (max-width: 1401px) {
+  body header .InfoWork,
+  body footer .InfoWork {
+    margin-left: 5%;
+  }
+}
+@media screen and (max-width: 1367px) {
+  body header,
+  body footer {
+    padding: 20px 8%;
+  }
+  body header .phoneNumber a,
+  body footer .phoneNumber a {
+    font-size: 1.25rem;
+  }
+  body header .btnCallMe,
+  body footer .btnCallMe {
+    margin-left: 5%;
+  }
+  body header .MenuNav,
+  body footer .MenuNav {
+    padding: 2rem 0;
+  }
+  body main .frontBlock {
+    height: 40rem;
+  }
+  body main .frontBlock .titleBlock {
+    margin: 0 8%;
+    width: 50%;
+  }
+  body main .frontBlock .titleBlock .descriptionBlock {
+    margin-top: 1rem;
+    width: 85%;
+  }
+  body main .ourServiceBlock .serviceGroup {
+    margin: 5rem 8%;
+  }
+  body main .repairBlock {
+    margin: 3.125rem 8%;
+  }
+  body main .repairBlock .repairService .repairItem .repairText {
+    margin-top: 22%;
+  }
+  body main .accessoriesBlock .accessoriesList {
+    padding: 3.125rem 8%;
+  }
+  body main .ourWorksBlock {
+    margin: 6.125rem 8%;
+  }
+  body main .reviewsBlock {
+    margin: 6.25rem 8%;
+  }
+  body main .reviewsBlock .reviewsTitleText {
+    padding-bottom: 3.25rem;
+  }
+}
+@media screen and (max-width: 1281px) {
+  body header,
+  body footer {
+    padding: 20px 5%;
+  }
+  body header .phoneNumber,
+  body footer .phoneNumber {
+    margin-left: 5%;
+  }
+  body main .frontBlock .titleBlock {
+    margin: 0 5%;
+  }
+  body main .frontBlock .titleBlock .callBtn {
+    width: 15.25rem;
+    font-size: 1.25rem;
+  }
+  body main .ourServiceBlock .serviceGroup {
+    margin: 5rem 5%;
+  }
+  body main .ourWorksBlock {
+    margin: 6.125rem 5%;
+  }
+  body main .reviewsBlock {
+    margin: 6.25rem 5%;
+  }
+}
+@media screen and (max-width: 1025px) {
+  body header,
+  body footer {
+    padding: 20px 3%;
+  }
+  body header .btnCallMe,
+  body footer .btnCallMe {
+    margin-left: 1%;
+  }
+  body header .btnCallMe .btnCall,
+  body footer .btnCallMe .btnCall {
+    padding: 1.25rem 1rem;
+  }
+  body header .InfoWork,
+  body footer .InfoWork {
+    margin-left: 2%;
+  }
+  body header .phoneNumber,
+  body footer .phoneNumber {
+    margin-left: 2%;
+  }
+  body main .frontBlock .titleBlock {
+    margin: 0 3%;
+  }
+  body main .ourServiceBlock .serviceGroup {
+    margin: 2rem 3%;
+    grid-template-rows: 14rem 14rem 14rem;
+  }
+  body main .ourServiceBlock .serviceGroup .ServiceName {
+    font-size: 1.25rem;
+  }
+  body main .ourServiceBlock .serviceGroup .ServiceReadLinkOut {
+    margin-top: 38%;
+  }
+  body main .ourServiceBlock .serviceGroup .serviceItemSmall .ServiceName {
+    width: 10rem;
+  }
+  body main .ourServiceBlock .repairBlock {
+    margin: 2.125rem 3%;
+  }
+  body main .ourServiceBlock .repairBlock .repairService {
+    margin-top: 2rem;
+  }
+  body main .repairBlock {
+    margin: 2.125rem 3%;
+  }
+  body main .repairBlock .repairService {
+    grid-template-rows: 250px;
+  }
+  body main .repairBlock .repairService .repairItem .repairText {
+    font-size: 1.75rem;
+  }
+  body main .accessoriesBlock .accessoriesList {
+    padding: 2.5rem 3%;
+  }
+  body main .topServiceList {
+    margin: 6.25rem 10%;
+  }
+  body main .ourWorksBlock {
+    margin: 3rem 3%;
+  }
+  body main .reviewsBlock {
+    margin: 4.25rem 3%;
+  }
+  body main .reviewsBlock .reviewsListBlock .reviewsItem .authorMessage {
+    font-size: 1rem;
+  }
+  body footer .contactBlock {
+    width: 15rem;
+  }
+}
+@media screen and (max-width: 431px) {
+  body header .logoBlock .burgerMenuOut {
+    margin-top: .75rem;
+  }
+  body header .headPart,
+  body footer .headPart {
+    display: grid;
+  }
+  body header .headPart .logoBlock,
+  body footer .headPart .logoBlock {
+    display: flex;
+  }
+  body header .headPart .logoBlock .burgerMenuOut .burgerMenu,
+  body footer .headPart .logoBlock .burgerMenuOut .burgerMenu {
+    display: block;
+  }
+  body header .MenuNav,
+  body footer .MenuNav {
+    display: none;
+  }
+  body main .frontBlock .titleBlock {
+    width: 75%;
+  }
+  body main .frontBlock .titleBlock .titleText {
+    font-size: 2rem;
+  }
+  body main .frontBlock .titleBlock .cityName {
+    padding: 0.5rem 1.5rem;
+    font-size: 2rem;
+    max-width: 12rem;
+  }
+  body main .frontBlock .titleBlock .descriptionBlock {
+    width: 90%;
+  }
+  body main .frontBlock .titleBlock .callBtn {
+    padding: 1.5rem 2.25rem;
+    width: 15rem;
+  }
+  body main .ourServiceBlock .serviceGroup {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .ourServiceBlock .serviceGroup .ServiceName {
+    margin-left: .563rem;
+    margin-top: 25%;
+    width: 12rem;
+  }
+  body main .ourServiceBlock .serviceGroup .ServiceReadLinkOut {
+    margin-top: 28%;
+  }
+  body main .ourServiceBlock .serviceGroup .mosquitoSlidingNets .ServiceName {
+    margin-top: 20%;
+    width: 9rem;
+  }
+  body main .ourServiceBlock .serviceGroup .serviceItemSmall .ServiceName {
+    margin-top: 33%;
+    width: 9rem;
+  }
+  body main .ourServiceBlock .serviceGroup .serviceItemSmall .ServiceReadLinkOut {
+    margin-left: .563rem;
+  }
+  body main .ourServiceBlock .serviceGroup .serviceItem,
+  body main .ourServiceBlock .serviceGroup .serviceSmallBlock {
+    height: 10rem;
+  }
+  body main .accessoriesBlock .accessoriesList {
+    display: flex;
+    flex-direction: column;
+  }
+  body main .repairBlock .repairService {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  body main .repairBlock .repairService .repairItem {
+    margin-top: 1rem;
+  }
+  body main .repairBlock .repairService .repairItem .repairText {
+    font-size: 1.25rem;
+    width: 13rem;
+    padding-bottom: 1rem;
+  }
+  body main .accessoriesBlock .accessoriesList .accessoriesItem .ItemOutBlock {
+    height: 8rem;
+  }
+  body main .topServiceList {
+    margin: 3.25rem 5%;
+  }
+  body main .ourWorksBlock .ourWorkList {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+  }
+  body main .ourWorksBlock .ourWorkList img {
+    margin-top: 1rem;
+  }
+  body main .reviewsBlock .reviewsTitleText {
+    padding-bottom: .25rem;
+  }
+  body main .reviewsBlock .reviewsListBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  body main .reviewsBlock .reviewsListBlock .reviewsItem {
+    margin-top: 1rem;
+  }
+  body footer {
+    margin-top: 0;
+  }
+}
+@media screen and (max-width: 416px) {
+  body header,
+  body footer {
+    padding: 20px 1%;
+  }
+  body header .logoBlock .burgerMenuOut {
+    margin-top: .75rem;
+  }
+}
+@media screen and (max-width: 391px) {
+  body header,
+  body footer {
+    padding: 20px 4%;
+  }
+  body header .logoBlock .logo {
+    display: grid;
+    grid-template-columns: 24% 74%;
+    grid-template-rows: 1fr 1fr;
+    gap: 2% 2%;
+    grid-auto-flow: row;
+    grid-template-areas: "logoImg logoName" "BorderItem DescriptLogo";
+  }
+  body header .logoBlock .logo .logoImg {
+    grid-area: logoImg;
+  }
+  body header .logoBlock .logo .logoName {
+    grid-area: logoName;
+  }
+  body header .logoBlock .logo .BorderItem {
+    grid-area: BorderItem;
+  }
+  body header .logoBlock .logo .DescriptLogo {
+    grid-area: DescriptLogo;
+    margin-left: -35%;
+  }
+  body header .logoBlock .burgerMenuOut {
+    margin-left: 15%;
+  }
+  body main .frontBlock .titleBlock .callBtn {
+    padding: 1.5rem 1.25rem;
+    width: 13rem;
+  }
+}
+@media screen and (max-width: 376px) {
+  body header .logoBlock .burgerMenuOut {
+    margin-left: 12%;
+  }
+  body main .frontBlock .titleBlock .callBtn {
+    font-size: 1rem;
+    padding: 1.25rem 1rem;
+    width: 10.5rem;
+    margin-top: 1.5rem;
+  }
+}
+@media screen and (max-width: 362px) {
+  body header .logoBlock .burgerMenuOut {
+    margin-left: 9%;
+  }
+  body main .topServiceList .topBlockName {
+    font-size: 1.25rem;
+  }
+  body main .topServiceList .topBlockList .topListItem .TopItemText {
+    font-size: 1rem;
+  }
+}
