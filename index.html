@@ -8,9 +8,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Questrial&display=swap" rel="stylesheet">                        
     <title>okon.kg</title>
     <link rel="stylesheet" type="text/css" href="css/style/style.css"/>
+    <link rel="icon" type="image/x-icon" href="css/asset/icons/logoOkon.png"/>
 </head>
 <body>
-    <header>
+    <header class="header open">
         <div class="headPart">
             <div class="logoBlock">
                 <div class="logo">
@@ -28,9 +29,11 @@
                     </div>
                 </div>
                 <div class="burgerMenuOut">
-                    <div class="burgerMenu">
-                        <img src="css/asset/icons/burgerMenu.png"/>
-                    </div>
+                    <button class="burgerMenu" id="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
                 </div>
             </div>
             <div class="InfoWork">
@@ -60,7 +63,7 @@
                 </button>
             </div>
         </div>
-        <div class="MenuNav">
+        <div class="MenuNav ShowMenu">
             <div class="navItem">
                 <a href="#fronBlock" class="linkItem">О компании</a>
             </div>
@@ -81,21 +84,16 @@
 
     <main>
         <div id="popupWrapper" class="hidden">
-
             <div id="popup">
-
                 <button id="closeBtn" aria-label="close button">
                     <img src="/css/asset/icons/closeBtn.svg" alt="close button">
                 </button>
-
-
                 <p id="popupTitle">Мы вам позвоним при первой <br>же возможности!</p>
-                <form id="popupForm">
+                <form id="popupForm" method="#">
                     <input id="nameInput" type="text" placeholder="Как вас зовут?" required>
                     <input id="numberInput" type="number" placeholder="Ваш номер телефона" required>
                     <button id="sendBtn" type="submit">Отправить</button>
                 </form>
-
             </div>
             
         </div> 
@@ -525,7 +523,7 @@
             </div>
         </div>
     </footer>
-    <script src="js/index.js">
+    <script defer src="js/index.js">
     </script>
 </body>
 </html>

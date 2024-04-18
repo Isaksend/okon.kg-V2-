@@ -15,16 +15,23 @@ document.addEventListener("DOMContentLoaded", function(event) {
     
     document.getElementById('popupForm').addEventListener('submit', function(event) {
         event.preventDefault(); // Prevent actual form submission
-
         let name = document.getElementById('nameInput').value
         let phone = document.getElementById('numberInput').value
-
         alert('submition: '+ name+' '+ phone)
-
         document.getElementById('nameInput').value = ''
         document.getElementById('numberInput').value = ''
+    });
 
+    document.getElementById("burger").addEventListener("click", function(){
+        document.querySelector("header").classList.toggle("open");
+    })
+    var links = document.querySelectorAll(".linkItem");
 
-
+    links.forEach(function(link){
+        link.addEventListener("click",function(){
+            document.querySelector("header").classList.remove("open");
+        });
     });
 });
+
+
